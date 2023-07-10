@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px) {
+  .nav__list {
+    gap: 0px;
+  }
+  .nav__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .nav__contenidor figure {
+    width: 80px;
+  }
+  .nav__list {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav__list.active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 170px;
+    width: 100vw;
+    padding: 0 32px 32px;
+    background-color: white;
+    font-size: 16px;
+    gap: 30px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  .nav__list.active .nav__link {
+    font-size: 16px;
+    text-align: right;
+  }
+}

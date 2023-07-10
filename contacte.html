@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harmonia Femenina</title>
+    <link rel="shortcut icon" href="./imatges/Logo 2.png" type="image/x-icon" />
+    <meta name="author" content="Lídia Molist" />
+    <meta
+      name="description"
+      content="Harmonia Femenina fa referència a l'equilibri i connexió de la dona amb la seva pròpia essència i el món que
+    la rodeja."
+    />
+    <script src="//code.tidio.co/l428avxkzxbwyua1yhfnt1q0fg2gxfeb.js" async></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('eISCwA5cT5S9X_LWt');
+      })();
+    </script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="contenidor nav__contenidor">
+        <figure>
+          <img src="./imatges/Logo 2.png" alt="" />
+        </figure>
+        <ul class="nav__list">
+          <li><a href="./index.html" class="nav__link">Inici</a></li>
+          <li><a href="./sobre-mi.html" class="nav__link">Sobre mi</a></li>
+          <li><a href="./les-meves-propostes.html" class="nav__link">Les meves propostes</a></li>
+          <li><a href="./contacte.html" class="nav__link">Contacte</a></li>
+        </ul>
+        <img src="./imatges/hamburger-icon.webp" alt="" class="hamburger" />
+      </div>
+    </nav>
+    <div class="frase">
+      <h3 class="cinzel">Contacte</h3>
+      <h5 class="cinzel">Parlem?</h5>
+    </div>
+    <article class="contenidor contacte">
+      <form onsubmit="contact(event)">
+        <input class="input" name="user_name" type="text" placeholder="Nom" required />
+        <input class="input" name="user_email" type="email" placeholder="Email" required />
+        <textarea
+          class="input"
+          name="message"
+          type="text"
+          cols="30"
+          rows="10"
+          placeholder="Missatge"
+          required
+        ></textarea>
+        <button class="boto__contacte">Enviar</button>
+      </form>
+      <img src="./imatges//contacte.jpg" alt="" />
+    </article>
+    <footer>
+      <div class="contenidor footer__content">
+        <ul class="footer__list">
+          <li><a class="footer__link" href="">Política de privacitat</a></li>
+          <li><a class="footer__link" href="./les-meves-propostes.html">Les meves propostes</a></li>
+          <li><a class="footer__link" href="">Política de cookies</a></li>
+          <li><a class="footer__link" href="./contacte.html">Contacte</a></li>
+        </ul>
+        <p class="footer__copyright">© <span class="year"></span> Lídia Molist</p>
+      </div>
+    </footer>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
