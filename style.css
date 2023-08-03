@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap');
 
 :root {
   --grocClar: #fff7db;
@@ -278,14 +278,14 @@ article img {
   flex-wrap: wrap;
 }
 
-.propostes__img--enllaç {
+.propostes__enllaç {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
 }
 
-.propostes__img--enllaç img {
+.propostes__enllaç img {
   width: 100%;
 }
 
@@ -389,6 +389,12 @@ input, textarea {
   .frase__text {
     font-size: 18px;
   }
+  form {
+    width: 100%;
+  }
+  .contacte img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 581px) {
@@ -460,7 +466,7 @@ input, textarea {
   article p {
     text-align: center;
   }
-  .propostes__img--enllaç {
+  .propostes__enllaç {
     flex-basis: 100%;
   }
 }
