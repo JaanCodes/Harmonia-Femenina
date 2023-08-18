@@ -280,6 +280,7 @@ article img {
 
 .propostes__enllaç {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
