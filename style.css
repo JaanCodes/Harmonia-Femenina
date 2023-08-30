@@ -352,6 +352,18 @@ input, textarea {
   cursor: pointer;
 }
 
+.politica-privacitat {
+  margin-top: 48px;
+}
+
+.politica-privacitat div {
+  margin-bottom: 32px;
+}
+
+.politica-privacitat p {
+  margin-top: 12px;
+}
+
 
 /* TABLETS & MOBILES */
 
