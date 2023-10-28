@@ -57,7 +57,7 @@ h5 {
 p {
   text-align: justify;
   line-height: 2em;
-  margin-top:32px;
+  margin-top: 32px;
 }
 
 li {
@@ -184,6 +184,7 @@ nav {
   text-align: center;
   font-weight: normal;
   font-style: italic;
+  margin-top: 5px;
 }
 
 /* Introducció */
